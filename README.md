@@ -12,12 +12,6 @@
   </p>
 </p>
 
-<style>
-    table {
-        width: 100%;
-    }
-</style>
-
 [![build status](https://img.shields.io/github/actions/workflow/status/luluhoc/expo-sdk-nestjs/node.js.yml?branch=main)](https://github.com/wellyshen/use-places-autocomplete/actions?query=workflow%3ACI) [![codecov](https://codecov.io/gh/rluluhoc/expo-sdk-nestjs/branch/main/graph/badge.svg)](https://codecov.io/gh/luluhoc/expo-sdk-nestjs) [![npm version](https://img.shields.io/npm/v/expo-sdk-nestjs)](https://www.npmjs.com/package/expo-sdk-nestjs) [![miniziped size](https://badgen.net/bundlephobia/minzip/expo-sdk-nestjs)](https://bundlephobia.com/result?p=expo-sdk-nestjs) [![tree shaking](https://badgen.net/bundlephobia/tree-shaking/react-colorful)](https://github.com/luluhoc/expo-sdk-nestjs) [![MIT licensed](https://img.shields.io/github/license/luluhoc/expo-sdk-nestjs)](https://raw.githubusercontent.com/luluhoc/expo-sdk-nestjs/master/LICENSE)
 
 ## Instalation
