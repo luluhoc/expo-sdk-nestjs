@@ -11,9 +11,7 @@ describe('ExpoSDK', () => {
     throw new Error('No EXPO_PUSH_SECURITY defined in `.env`!');
 
   const config: typeof OPTIONS_TYPE = {
-    options: {
-      accessToken: EXPO_PUSH_SECURITY,
-    },
+    accessToken: EXPO_PUSH_SECURITY,
   };
 
   describe('forRoot', () => {
