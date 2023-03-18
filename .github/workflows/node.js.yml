@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      EXPO_PUSH_SECURITY: ${{ secrets.EXPO_SEC }}
     strategy:
       matrix:
         node-version: [18]
@@ -18,8 +19,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
-        env:
-          EXPO_PUSH_SECURITY: ${{ secrets.EXPO_SEC }}
+        
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
