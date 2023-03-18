@@ -8,7 +8,7 @@ describe('ExpoSDK', () => {
   const { EXPO_PUSH_SECURITY } = process.env;
 
   if (!EXPO_PUSH_SECURITY)
-    throw new Error('No Twilio phone number defined in `.env`!');
+    throw new Error('No EXPO_PUSH_SECURITY defined in `.env`!');
 
   const config: typeof OPTIONS_TYPE = {
     options: {
