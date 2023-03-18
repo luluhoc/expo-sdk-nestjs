@@ -112,5 +112,5 @@ expo-server-sdk-node repo [here](https://github.com/expo/expo-server-sdk-node)
 
 Example of testing can be found [here](https://github.com/luluhoc/expo-sdk-nestjs/blob/main/src/__tests__/expo.module.test.ts).
 
-## If You Like this project consider buying me a coffee
+## Consider buying me a coffee if you like this project
 <a href="https://www.buymeacoffee.com/lulu45" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
